@@ -1,0 +1,69 @@
+
+
+
+.timing{
+	text-decoration: none;
+	font-size: 25px;
+	text-align: center;
+	color: yellow;
+
+}
+
+
+.address{
+	text-decoration: none;
+	font-size: 25px;
+	text-align: center;
+	color: yellow;
+
+}
+
+
+.contact{
+	text-decoration: none;
+	font-size: 25px;
+	text-align: center;
+	color: yellow;
+
+}
+
+
+body{
+	background-color: black; /*or use #4286f4*/
+}
+
+
+ul {
+	line-height: 1.5;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  word-spacing: 1px;
+  color: white;
+}
+
+h1{
+	text-align: center;
+	font-size: 70px;
+	color: red;
+	text-decoration: underline;
+}
+
+
+h2{
+	text-align: center;
+	font-size: 70px;
+	color: red;
+	text-decoration: underline;
+}
+
+
+
+h3{
+	text-align: center;
+	font-size: 70px;
+	color: red;
+	text-decoration: underline;
+}
+
+

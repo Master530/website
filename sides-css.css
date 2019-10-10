@@ -1,0 +1,38 @@
+html{
+	background-color: black;
+}
+
+
+.name{
+	color: yellow;
+}
+
+.price{
+	color: yellow;
+}
+
+ul {
+	line-height: 1.5;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  word-spacing: 1px;
+  color: white;
+ font-size: 30px;
+}
+
+
+h1{
+	text-align: center;
+	font-size: 70px;
+	color: red;
+	text-decoration: underline;
+}
+
+
+h2{
+	text-align: center;
+	font-size: 70px;
+	color: red;
+	text-decoration: underline;
+}

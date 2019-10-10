@@ -1,0 +1,41 @@
+
+
+.name{
+	color:yellow;
+}
+
+.price{
+	color: yellow;
+}
+
+.spacing{
+  line-height: 200%;
+}
+
+
+.original-salads{
+	text-decoration: none;
+	font-size: 30px;
+	text-align: left;
+
+}
+
+body{
+	background-color: black; /*or use #4286f4*/
+}
+
+ul {
+	line-height: 1.5;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  word-spacing: 1px;
+  color: white;
+}
+
+h1{
+	text-align: center;
+	font-size: 70px;
+	color: red;
+	text-decoration: underline;
+}

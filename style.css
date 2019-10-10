@@ -1,0 +1,241 @@
+html{
+	background-color: white
+	max-width:100%;
+	/*background-image:url(https://image.freepik.com/free-vector/different-types-of-food-on-the-plates-illustration_1308-2587.jpg);*/
+}
+
+body{
+
+	background-color: #8d9bb2;
+	margin:0 auto;
+	width: 960px;
+	font-family: cursive;
+}
+
+a{
+	text-decoration: none;
+	color: #373535
+}
+
+/*Header*/
+header{
+	height: 200px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+
+header{
+	background-color: #a8b2c1;
+}
+
+ul{
+
+	padding: 0;
+}
+
+
+li{
+	display: inline;
+	padding:10px;
+	font-size: 20px;
+}
+
+
+header li:first-child{
+	border-right: 1px solid #373535;
+}
+
+.left{
+	width: 320px;
+	float: left;
+}
+
+.left ul{
+	padding-left: 30px;
+	padding-top: 90px;
+}
+
+.right{
+	width: 320px;
+	float: right;
+}
+
+.right ul{
+	float: right;
+	padding-right: 30px;
+	padding-top: 90px;
+}
+
+#Logo{
+	width: 320px;
+	float: left;
+	text-align: center;
+	color: white;
+	font-size: 32px;
+}
+
+#logo p{
+	margin: 0
+
+}
+
+
+/*Main Content*/
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+#main{
+	background-image: url('images/dishes.jpg');
+	height: 438px;
+
+}
+
+#main p{
+	margin: 0;
+	padding-top: 20px;
+	color: #b46363;
+	text-align: center;
+	font-size: 30px;
+}
+
+
+form{
+	padding-top: 30px;
+	text-align: center;
+}
+
+#Email{
+	width: 220px;
+	height: 30px;
+	border-radius: 10px;
+	padding: 0px;
+	margin-right: 10px;
+}
+
+#click{
+	height: 30px;
+	border-radius: 10px;
+}
+
+.box{
+	position: relative;
+	float: left;
+	margin: 15px 0;
+}
+
+.box img{
+	position: relative;
+	z-index: 1;
+	margin-left: 13.3px;
+}
+
+.box p{
+	position: absolute;
+	width: 320px;
+	top: 12px;
+	z-index: 2;
+	text-align: center;
+	font-size: 24px;
+	margin-left: 15px;
+}
+
+.middle p{
+	color: white;
+}
+
+
+/*footer*/
+
+nav{
+	font-size: 16px;
+	text-align: center;
+}
+
+footer{
+	height:140px;
+	padding-top:20px;
+}
+
+footer li {
+	border-right: 1px solid #373535;
+}
+
+
+footer li:last-child {
+	border-right: none;
+}
+
+footer img{
+	display: block;
+}
+
+.top p{
+	color: white;
+}
+
+.bottom p{
+	color: white;
+}
+
+.cold-cuts p{
+	color: black;
+}
+
+
+.salads p{
+	color: black;
+}
+
+.platters p{
+	color: white;
+	text-align: center;
+}
+
+
+footer img{
+	margin: 0 auto;
+	display: block;
+}
+
+#finish{
+	background-color: #5e6a7f;
+}
+
+#finish2{
+	background-color: #5e6a7f;
+}
+
+#finish3{
+	background-color: #5e6a7f;
+}
+
+#finish4{
+	background-color: #5e6a7f;
+}
+
